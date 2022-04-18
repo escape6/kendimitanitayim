@@ -67,6 +67,15 @@ Diğer sayfalar şunlardır:
 - Eski sayfa: eski bir şehirden bahseder, burada yukarıdaki aynı şehrin antik tarihi olacak.
 - İletişim sayfası: Ziyaretçilerin site sahibine mesaj göndermesini sağlayan sayfa. Alan doğrulamasını kanıtlamak için göndermeden önce mesaj verileri filtrelenecektir. Başarılı bir şekilde gönderildikten sonra gönderilen veriler gösterilecektir.
 ##
-## Site Ön Koşulları Şeması
+## Web Sitesi Ön Koşul Tablosu
 ![This is an image](/assets/images/siteWorkflow.jpg)
+##
+## Web sitesi Storyboard
+![This is an image](/assets/images/storyboard-01.jpg)
+![This is an image](/assets/images/storyboard-02.jpg)
+![This is an image](/assets/images/storyboard-03.jpg)
+![This is an image](/assets/images/storyboard-04.jpg)
+![This is an image](/assets/images/storyboard-05.jpg)
+![This is an image](/assets/images/storyboard-06.jpg)
+![This is an image](/assets/images/storyboard-07.jpg)
 ##
