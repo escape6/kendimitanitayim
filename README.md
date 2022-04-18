@@ -54,3 +54,15 @@ Sunuma katılmayan öğrenciler projelerini tamamlayıp sisteme yükleseler dahi
 Proje bölümlere ayrılarak 3 adet proje değerlendirmesi, bu bölümlere verilen puanlar çerçevesinde gerçekleştirilecektir.
 #
 ## Kısaca Proje
+Proje, kimlik doğrulamasını kanıtlamak için bir oturum açma sayfasıyla başlayan birden çok sayfadan oluşur.
+
+Başarılı bir girişten sonra, ziyaretçiye bir karşılama mesajı görünür ve onu sitenin ana sayfasına yönlendirir.
+
+Ana sayfa, site sahibi, hobileri, beğendiği şeyler ve varsa ekstra benzerleri hakkında kısa bilgiler içeren Hakkımda sayfasıdır.
+
+Diğer sayfalar şunlardır:
+- CV sayfası: site sahibinin eğitim ve becerilerinden bahseder.
+- İlgi Alanlarım sayfası: filmler hakkında ücretsiz bir API odaklı veri gösterir.
+- Benim Şehrim sayfası: sahibinin en sevdiği şehir hakkında bilgi gösterir, burada doğup büyüdüğü şehir olacaktır.
+- Eski sayfa: eski bir şehirden bahseder, burada yukarıdaki aynı şehrin antik tarihi olacak.
+- İletişim sayfası: Ziyaretçilerin site sahibine mesaj göndermesini sağlayan sayfa. Alan doğrulamasını kanıtlamak için göndermeden önce mesaj verileri filtrelenecektir. Başarılı bir şekilde gönderildikten sonra gönderilen veriler gösterilecektir.
