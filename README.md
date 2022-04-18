@@ -68,3 +68,5 @@ Diğer sayfalar şunlardır:
 - İletişim sayfası: Ziyaretçilerin site sahibine mesaj göndermesini sağlayan sayfa. Alan doğrulamasını kanıtlamak için göndermeden önce mesaj verileri filtrelenecektir. Başarılı bir şekilde gönderildikten sonra gönderilen veriler gösterilecektir.
 ##
 ## Site Ön Koşulları Şeması
+![This is an image](/assets/images/siteWorkflow.jpg)
+##
