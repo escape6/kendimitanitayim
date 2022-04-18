@@ -80,5 +80,5 @@ Diğer sayfalar şunlardır:
 ![This is an image](/assets/images/storyboard-07.jpg)
 ##
 ## Devam edecek!
--[] Daha fazla güncelleme hazır olduğunda daha fazla bilgi ayarlanacak:+1
+- [ ] Daha fazla güncelleme hazır olduğunda daha fazla bilgi ayarlanacak :+1:
 ##
