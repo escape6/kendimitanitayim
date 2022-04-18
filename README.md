@@ -66,3 +66,5 @@ Diğer sayfalar şunlardır:
 - Benim Şehrim sayfası: sahibinin en sevdiği şehir hakkında bilgi gösterir, burada doğup büyüdüğü şehir olacaktır.
 - Eski sayfa: eski bir şehirden bahseder, burada yukarıdaki aynı şehrin antik tarihi olacak.
 - İletişim sayfası: Ziyaretçilerin site sahibine mesaj göndermesini sağlayan sayfa. Alan doğrulamasını kanıtlamak için göndermeden önce mesaj verileri filtrelenecektir. Başarılı bir şekilde gönderildikten sonra gönderilen veriler gösterilecektir.
+##
+## Site Ön Koşulları Şeması
