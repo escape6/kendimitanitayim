@@ -1,4 +1,4 @@
 # kendimitanitayim
-![This is an image](/kendimitanitayim/assets/images/gh01.png)
+![This is an image](/assets/images/gh_01.png)
 #
 ## Kısaca Proje
