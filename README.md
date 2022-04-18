@@ -1,4 +1,4 @@
-# kendimitanitayim
+# kendimitanitayim - Web Teknolojisi Projesi
 ![This is an image](/assets/images/gh_01.png)
 #
 ## Proje Kapsamı ve Perspektif
