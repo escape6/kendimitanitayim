@@ -1,1 +1,3 @@
-# kendimitanitayim
+# kendimitanitayim  
+#
+## Kısaca Proje
