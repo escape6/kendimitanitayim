@@ -1,7 +1,7 @@
 # kendimitanitayim
 ![This is an image](/assets/images/gh_01.png)
 #
-## Kısaca Proje
+## Proje Kapsamı ve Perspektif
 Proje Amacı
 
 Derste öğrenilen bilgiler (HTML, CSS, Javascript vb.) kullanılarak bir web sitesi geliştirilmesi
@@ -52,3 +52,5 @@ PROJE TESLİMİ: Dönemin son haftasından önce sabis üzerinden açılacak ola
 Sunuma katılmayan öğrenciler projelerini tamamlayıp sisteme yükleseler dahi puan alamazlar. Sunum saatleri dışında proje değerlendirmesi yapılmayacaktır.
 
 Proje bölümlere ayrılarak 3 adet proje değerlendirmesi, bu bölümlere verilen puanlar çerçevesinde gerçekleştirilecektir.
+#
+## Kısaca Proje
