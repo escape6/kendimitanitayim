@@ -1,0 +1,11 @@
+body {
+    align-content: center;
+    padding-top: 150px;
+    background: url('./images/bg01.jpg') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Kalam', sans-serif !important;
+    text-shadow: 0 .05rem .1rem rgb(95, 88, 192);
+  }
