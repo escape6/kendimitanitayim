@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Web Teknolojisi Projesi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="py-0">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning p-1 md-auto">
+
+            <div class="container-fluid shadow p-3 mb-4 rounded">
+                <a class="navbar-brand" href="https://cs.sakarya.edu.tr/" target="_blank">
+                    <img src="images/SakaryaUniversitesi-logo.png" alt="" width="40" height="54"
+                        class="d-inline-block align-text-bottom">
+
+                </a>
+
+                <div class="navbar-brand">Abdulsamad Alhamwi
+                    <a href="logout.php">
+                        <img src="images/logout.png" alt="Çıkış Yap.." width="24px">
+                    </a>
+                    <br>Web Teknolojisi Projesi
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="hakkimda.html">Hakkımda!...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="cv.html">Özgeçmiş</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="ilgialan.html">İlgi alanlarım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="sehir.html">Yaşadığım
+                                Şehir!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="miras.html">Miras!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="iletisim.html">İletişim</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slide-1.jpg" data-bs-toggle="modal" data-bs-target="#modal1" class="d-block w-100"
+                    alt="Yükleniyor">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-black-50 bg-warning shadow-sm">Sahil şeridinde Cidde corniche dönüm noktası</h3>
+                    <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-2.jpg" data-bs-toggle="modal" data-bs-target="#modal2" class="d-block w-100"
+                    alt="Yükleniyor">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-black-50 bg-warning shadow-sm">Cidde şehir binaları</h3>
+                    <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-3.jpg" data-bs-toggle="modal" data-bs-target="#modal3" class="d-block w-100"
+                    alt="Yükleniyor">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-black-50 bg-warning shadow-sm">Cidde'de Formula 1 pisti</h3>
+                    <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-4.jpg" data-bs-toggle="modal" data-bs-target="#modal4" class="d-block w-100"
+                    alt="Yükleniyor">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-black-50 bg-warning shadow-sm">Cidde Kornişi, Yeni Binalar Yükseliyor</h3>
+                    <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="dialog">
+            <div class="modal-content">
+                <h1 class="text-primary text-center">
+                    Sahil şeridinde Cidde corniche dönüm noktası
+                </h1>
+                <div class="modal-body mb-0 p-0">
+                    <img width="100%" height="50%" class="img-responsive" src="images/slide-1.jpg"
+                        allowfullscreen></img>
+                </div>
+                <div class="modal-footer">
+                    <h4>Harika bir estetik şekle sahip birçok mercan resifi vardır ve bunlar sadece Corniche'nin içinde
+                        bulunur ve onu kışın veya yazın her zaman ziyaret etmek isteyen birçok insan tarafından sevilir.
+                    </h4>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <div class="modal-content">
+                <h1 class="text-primary text-center">
+                    Cidde'de Formula 1 pisti
+                </h1>
+                <div class="modal-body mb-0 p-0">
+                    <img width="100%" height="50%" class="img-responsive" src="images/slide-3.jpg"
+                        allowfullscreen></img>
+                </div>
+                <div class="modal-footer">
+                    <h4>Cidde Kornişi, şehrin Kızıldeniz kıyısına bakan batı kesiminde yer alır ve uzunluğu 110 km'ye
+                        ulaşır ve birçok uluslararası otel, ticaret merkezi, park ve eğlence parkına sahip olması ile
+                        karakterize edilir.</h4>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="dialog">
+            <div class="modal-content">
+                <h1 class="text-primary text-center">
+                    Cidde Kornişi, Yeni Binalar Yükseliyor
+                </h1>
+            
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <main class="container">
+        <div class="row">
+            <div class="col-md ,b-5">
+                <h2 class="text-primary">Cidde Şehri</h2>
+                <p>
+          
+                    Cidde hakkında
+                    Cidde (Cidde olarak da bilinir), Kızıldeniz kıyısında bulunan bir Suudi Arabistan şehridir ve batı
+                    Suudi Arabistan'ın en büyük kentsel merkezidir. Mekke Eyaletinin en büyük şehri, Kızıldeniz'deki en
+                    büyük deniz limanı ve Suudi Arabistan'ın başkent Riyad'dan sonra ikinci büyük şehridir. Şehrin
+                    nüfusu şu anda 3.4 milyonun üzerinde. Suudi Arabistan'da önemli bir ticaret merkezidir.
+
+                    Cidde, sağlıklı Müslümanların hayatlarında en az bir kez ziyaret etmeleri gereken İslam'ın en kutsal
+                    şehri olan Mekke'ye açılan ana kapıdır. Aynı zamanda İslam'ın ikinci en kutsal yeri olan Medine'ye
+                    açılan bir kapıdır.
+
+                    Cidde, tüm Suudi Arabistan şehirlerinin en kozmopolit ve hoşgörülü olup, dünyanın her yerinden
+                    Cidde'yi evleri yapan gurbetçilere ev sahipliği yapmaktadır. Ekonomik olarak Cidde, Suudi Arabistan
+                    ve Orta Doğu'daki bilimsel ve mühendislik liderliğine sermaye yatırımını daha da geliştirmeye
+                    odaklanıyor.[2] Cidde, 2009 yılında İnovasyon Şehirleri Endeksi'nde inovasyon açısından Afrika /
+                    Orta Doğu bölgesinde bağımsız olarak 4. sırada yer aldı.
+
+                </p>
+             
+                    Suudi Arabistan Havayolları'nın genel merkezi, Cidde'yi Orta Doğu'nun Dubai'den sonra ikinci ticaret
+                    merkezi olarak tanımlayan, tüm başkentlerine iki saatlik uçuş mesafesindeki Orta Doğu ve Kuzey
+                    Afrika'nın kapsadığı bölgenin kalbinde yer alıyor.
+
+                    Ayrıca Cidde'nin sanayi bölgesi, Riyad, Jubail ve Yanbu'dan sonra Suudi Arabistan'ın dördüncü büyük
+                    sanayi şehridir.
+                </p>
+
+                <h4 class="text-primary">
+                    Kral Abdullah Caddesi</h4>
+                <p>
+                    Kral Abdullah Caddesi, şirketlerin ofisleri ve ticari gelişmeler için önemli bir yerdir. Sokak,
+                    Emaar Middle East ve Al-Farsi gibi Suudi Arabistan'daki en güçlü holdinglerden bazılarına ev
+                    sahipliği yapıyor. Bu bölgedeki ekonomik patlama nedeniyle, doğu dünyasının en büyük MİA'larından
+                    biri olacak bir merkezi iş bölgesi planlanmaktadır.
+
+                </p>
+                <h4 class="text-primary">
+                    Tahliye Caddesi</h4>
+                <p>
+                    Tahlia Caddesi, Cidde şehir merkezinde önemli bir moda ve alışveriş caddesidir. Prada, Gucci,
+                    Burberry, Chanel, Giorgio Armani ve Diesel gibi birçok lüks mağaza ve butik içerir.
+                </p>
+
+                <h4 class="text-primary">
+                    Yerel mutfak</h4>
+                <p>
+                    Cidde sakinleri birkaç farklı etnik köken ve milletten oluşan bir karışımdır. Bu ırk karışımının
+                    Cidde'nin geleneksel mutfağı üzerinde büyük etkisi oldu.
+
+                  
+                    Al Tazaj gibi diğer yerel fast food restoranları, baharatlı ızgara tavuk (Farooj olarak
+                    adlandırılır) ve Tahina'nın bir tarafını soğan ve baharatlarla servis eder. Foulameez, Faul ve
+                    Tameez'e şu şekilde hizmet eder:
+                </p>
+                <br>
+                <br>
+                
+            <div class="col-md ,b-5">
+                <div class="card rounded">
+                    <h4 class="card-title text-primary text-center">Şehir Kapıları</h4>
+                    <img src="images/sehir01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Cidde'nin devasa eski duvarları, şehri Kızıldeniz'den gelen Portekiz
+                            saldırılarından korumak için inşa edildi. Duvar artık ayakta olmasa da, altı etkileyici kapı
+                            ve kule şehrin her yerinde hayranlıkla izlenebilir. Kapılar hava karardıktan sonra çekici
+                            bir şekilde aydınlatılır, bu nedenle kapıları aramak için eski şehirde bir gece gezintisi
+                            yapmak Cidde'yi keşfetmek için harika bir yoldur.</p>
+                    </div>
+                </div>
+                
+                
+                </div>
+                <div class="card rounded">
+                    <h4 class="card-title text-primary text-center">El Balad, Eski Cidde</h4>
+                    <img src="images/sehir04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Cidde şehri, balıkçılar tarafından şimdiki Al-Balad mahallesinde kurulduğu
+                            7. yüzyıla kadar uzanıyor. Bölge, şehrin geleneksel mercan taşları ve ahşaptan yapılmış en
+                            eski ve en güzel binalarından bazılarına sahip olmakla övünen antik hissini hala koruyor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="progress-bar-top">
+        <button class="back-to-top hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+            </svg>
+        </button>
+    </div>
+
+    <footer class="bg-dark bg-gradient shadow text-white text-center mt-5 p-3">
+        &copy; 2022 Abdulsamad Alhamwi - <a href="#" class="text-white-50">GitHub</a> | <a href="#"
+            class="text-white-50">Instagram</a> | <a href="#" class="text-white-50">Twitter</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
