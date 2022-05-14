@@ -11,10 +11,6 @@ const debounce = (fn, delay = 500) => {
     let timeoutId;
     return (...args) => {
         // cancel the previous timer
-        if (timeoutId) {
-            clearTimeout(timeoutId);
-        }
-        // setup a new timer
         timeoutId = setTimeout(() => {
             fn.apply(null, args)
         }, delay);
@@ -29,19 +25,6 @@ const checkFname = () => {
     let fname = document.getElementById('fname').value.trim();
     const min = 3,
         max = 25;
-    if (!isRequired(fname)) {
-        document.getElementById('fname-er').innerHTML = 'Ad alanı boş bırakılamaz.';
-        fnameValid = false;
-    } else if (!isBetween(fname.length, min, max)) {
-        document.getElementById('fname-er').innerHTML = `Ad ${min} ila ${max} karakter arasında olmalıdır.`;
-        fnameValid = false;
-    } else if (!isFnameValid(fname)) {
-        document.getElementById('fname-er').innerHTML = 'Ad geçerli değil.';
-        fnameValid = false;
-    } else {
-        document.getElementById('fname-er').innerHTML = '&#10003';
-        fnameValid = true;
-    }
     let control = document.getElementById('fname');
     if (!fnameValid) {
         control.style.borderColor = 'red';
@@ -146,11 +129,6 @@ const checkMessage = () => {
         messageValid = true;
     }
     let control = document.getElementById('message');
-    if (!messageValid) {
-        control.style.borderColor = 'red';
-    } else {
-        control.style.borderColor = 'green';
-    }
     return messageValid;
 }
 
@@ -199,20 +177,6 @@ document.addEventListener('submit', function (e) {
     }
 });
 
-function clearForm() {
-    document.getElementById("fname-er").innerHTML = '';
-    document.getElementById("lname-er").innerHTML = '';
-    document.getElementById("email-er").innerHTML = '';
-    document.getElementById("mobile-er").innerHTML = '';
-    document.getElementById("message-er").innerHTML = '';
-    document.getElementById("contact-er").innerHTML = '';
-    document.getElementById("fname").style.borderColor = '#ced4da';
-    document.getElementById("lname").style.borderColor = '#ced4da';
-    document.getElementById("email").style.borderColor = '#ced4da';
-    document.getElementById("mobile").style.borderColor = '#ced4da';
-    document.getElementById("message").style.borderColor = '#ced4da';
-    document.getElementById("contact").reset();
-}
 
 document.addEventListener('reset', function (e) {
     clearForm();
