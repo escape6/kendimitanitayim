@@ -64,7 +64,17 @@
         <h1 class="text-info text-center border-bottom pb-3">Bana mesaj gönder..</h1>
         <div class="row">
 
-            
+            <div class="col-md-3 text-left mb-3">
+                <img id="myimg" class="rounded-circle img-fluid" src="images/abdp.png" alt="Profil resmi" />
+                <h6>
+                    <br>Türkiye Sakarya,<br>
+                    Bilgisayar ve Bilişim Bilimleri Fakültesi <br>
+                    Bilgisayar Mühendisliği Bölümü
+                </h6>
+                <br>
+                <button class="btn btn-outline-info btn-dark align-self-end" type="reset" id="reset" name="reset"
+                    value="temizle.." onclick="clearForm()">temizle..</button>
+            </div>
             <div class="col-md-9">
                 <div class="container">
                     <form id="contact" class="form" name="contact">
@@ -103,7 +113,14 @@
                                         placeholder="Telefon numaranızı giriniz" name="mobile" onchange="checkMobile()">
                                 </div>
                             </div>
-                           
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="message">Mesajınız:</label>
+                                <small id="message-er" class="text-primary"></small>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="5" id="message" name="message"
+                                        placeholder="Mesajınızı girin" onchange="checkMessage()"></textarea>
+                                </div>
+                            </div>
                             <hr style="width:100%" , size="5" , color=black-50>
                             <div class="form-group">
                                 <div class="col-sm-10 d-grid">
@@ -120,8 +137,19 @@
         <hr style="width:100%" , size="5" , color=black-50>
     </div>
 
-  
-   
+    <div class="progress-bar-top">
+        <button class="back-to-top hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+            </svg>
+        </button>
+    </div>
+
+    <footer class="bg-dark bg-gradient shadow text-white text-center mt-5 p-3">
+        &copy; 2022 Abdulsamad Alhamwi - <a href="#" class="text-white-50">GitHub</a> | <a href="#"
+            class="text-white-50">Instagram</a> | <a href="#" class="text-white-50">Twitter</a>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -130,6 +158,8 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 
+    <script src="js/vform.js"></script>
+    <script src="js/scroll.js"></script>
 
 </body>
 
