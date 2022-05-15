@@ -85,3 +85,71 @@ body {
   font-size: 22px !important;
 }
 
+.card{
+  /* top: 10%; */
+  background-color:  rgb(240, 236, 223);
+  width: fit-content;
+}
+
+.card-title{
+  margin-top: 10px;
+}
+
+.list-group-item{
+  background-color:  #ffc107;
+}
+
+.card-img-overlay{
+  top: 3%;
+  left: 40%;
+}
+
+.form-control{
+  background-color: rgba(232, 237, 240, 0.74);
+}
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #ffc107;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #1012b4;
+  z-index: 99999;
+}
+
+.progress-bar-top {
+  height: 10px;
+  background: rgb(240, 236, 223);
+  position: fixed;
+  top: 120px;
+  left: 0;
+  z-index: 99999;
+}
+
+.eye-viewer{
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 99999;
+  cursor:pointer;
+}
