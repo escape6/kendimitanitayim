@@ -82,3 +82,6 @@ Diğer sayfalar şunlardır:
 ## Devam edecek!
 - [ ] Daha fazla güncelleme hazır olduğunda daha fazla bilgi ayarlanacak :+1:
 ##
+Web sitemi ziyaret edin:
+https://b201210585.000webhostapp.com/login.php
+
