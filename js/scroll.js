@@ -20,6 +20,14 @@ document.addEventListener("scroll", () => {
         (scrollContainer().scrollTop /
             (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
         100;
+
+    pageProgressBar.style.width = `${scrolledPercentage}%`;
+
+    if (scrollContainer().scrollTop > showOnPx) {
+        backToTopButton.classList.remove("hidden");
+    } else {
+        backToTopButton.classList.add("hidden");
+    }
 });
 
 backToTopButton.addEventListener("click", goToTop);
@@ -28,10 +36,16 @@ function checkFileExist(urlToFile) {
     var xhr = new XMLHttpRequest();
     xhr.open('HEAD', urlToFile, false);
     xhr.send();
+
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
 }
 
-var result = checkFileExist("./legal");
+var result = checkFileExist("/legal");
 
 if (result == true) {} else {
-    window.location = ('./login.php');
+    window.location = ('/login.php');
 };
